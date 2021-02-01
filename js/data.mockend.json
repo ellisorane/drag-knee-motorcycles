@@ -1,5 +1,5 @@
-{
-  "motorcycles" : [ {
+[
+  {
     "category" : "Sport Touring",
     "color" : "Red",
     "condition" : "New",
@@ -29,5 +29,5 @@
     "model" : "YZF-R1",
     "price" : 17399,
     "year" : 2020
-  } ]
-}
+  } 
+]   
