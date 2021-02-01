@@ -18,17 +18,128 @@ body {
 .container {
     height: 100%;
     width: 100%;
+    padding-bottom: 200px;
 }
 
-.topDiv {
-    margin: 20px auto;
+.topDiv {margin-top: 30px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .catsDiv {
-    min-height: 200px;
+    min-height: auto;
+    padding: 10px;
     width: 90%;
     margin: 20px auto;
     background-color: #22273A;
     border-radius: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
+.catsBtn {
+    background-color: #353d58;
+    border: none;
+    border-radius: 15px;
+    padding: 0.5rem 1rem;
+    color: #D1D5E5;
+    transition: all 0.3s;
+    outline: none;
+}
+
+.catsBtn:hover {
+    background-color: #304DB2;
+}
+
+.inventory {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    margin-bottom: 30px;
+    width: 95%;
+    min-height: 400px;
+    background-color: #353d58;
+    border-radius: 2px;
+}
+
+.item a {
+    text-decoration: none;
+    color: #D1D5E5;
+}
+
+.imgArea {
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.priceDiv {
+    width: inherit;
+    height: max-content;
+    margin-top: 60%;
+    /* position: relative; */
+    padding: 10px;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      );
+}
+
+.imgsLength {
+    float: right;
+}
+
+.price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+
+.itemInfo {
+    margin: 1rem;
+}
+
+.itemInfo {
+    background-color: #22273A;
+    line-height: 2rem;
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 1.3rem;
+}
+
+.itemBtnContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.itemBtn {
+    padding: 2rem 3rem;
+    margin: 1.5rem 0;
+    color: #D1D5E5;
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    background-color: #304DB2;
+    border-radius: 5px;
+    border: none;
+}
+
+.itemBtn:hover {
+    background-color: #3958c9;
+}

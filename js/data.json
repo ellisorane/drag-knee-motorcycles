@@ -8,7 +8,8 @@
     "mileage" : 7,
     "model" : "Rocket 3 R Korosi Red",
     "price" : 21900,
-    "year" : 2020
+    "year" : 2020,
+    "featured" : true
   }, {
     "category" : "Touring",
     "color" : "Silver",
@@ -18,7 +19,8 @@
     "mileage" : 79652,
     "model" : "GL1800 Goldwing",
     "price" : 5999,
-    "year" : 2002
+    "year" : 2002,
+    "featured" : false
   }, {
     "category" : "Sportbike",
     "color" : "Black",
@@ -28,6 +30,7 @@
     "mileage" : 1,
     "model" : "YZF-R1",
     "price" : 17399,
-    "year" : 2020
+    "year" : 2020,
+    "featured" : true
   } 
 ]   
