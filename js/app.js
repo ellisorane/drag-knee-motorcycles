@@ -24,7 +24,7 @@ $(document).ready(function () {
     }
     navSlide()
 
-    $.ajax({url: "https://drag-knee-data.free.beeceptor.com", success: function(result){
+    $.ajax({url: "https://mockend.com/org/drag-knee-motorcycles/", success: function(result){
         console.log(result)
         // $('.catsDiv').html(() => {
         //     result.motorcycles.forEach(data => {
