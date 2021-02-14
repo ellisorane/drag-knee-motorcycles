@@ -6,7 +6,8 @@ nav {
     background-color: #22273A;
 }
 
-.logo {
+.logo a {
+    text-decoration: none;
     color: white;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -26,7 +27,6 @@ nav {
 .nav-links a {
     color: white;
     text-decoration: none;
-    letter-spacing: 3px;
     font-weight: bold;
     font-size: 15px;
     display: block;
@@ -56,15 +56,23 @@ nav {
 }
 
 
-@media (max-width: 768px) {
+/* COLLAPSED VIEW  */
+@media (max-width: 1450px) {
     body {
         overflow-x: hidden;
     }
 
     nav {
+        justify-content: space-between;
+        padding: 15px;
         position: fixed;
+        z-index: 800;
         width: 100%;
         top: 0;
+    }
+
+    .logo {
+        letter-spacing: 0;
     }
 
     .container {
@@ -84,7 +92,11 @@ nav {
     }
 
     .nav-links li {
+        padding-left: 10px;
+        padding-bottom: 5px;
+        width: 100%;
         opacity: 0;
+        border-bottom: 1px dotted white;
     }
 
     .burger {

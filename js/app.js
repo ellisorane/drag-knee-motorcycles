@@ -51,6 +51,9 @@ $(document).ready(function () {
                                 <div class="condition">${data.condition}</div>
                                 <div class="mileage">Mileage: ${data.mileage} miles</div>
                                 <div class="color">Color: ${data.color}</div>
+                                <div class="desc">
+                                <p>Description: ${data.description.substring(0, 100)}</p>
+                            </div>
                             </div>
                             <div class="itemBtnContainer">
                                 <button class="itemBtn">✉ Email</button> <button class="itemBtn">☎ Call</button> 
@@ -62,5 +65,20 @@ $(document).ready(function () {
                 // $('.catsDiv').append(`<button class="catsBtn" id="catsMake">${data.model} +</button>`)
                 // $('.catsDiv').append(`<button class="catsBtn" id="catsMake">${data.condition} +</button>`)
             })
-    }})
+        }
+    })
+    
+    const imgs = [
+        "https://cdn1.cycletrader.com/v1/media/5ffaa769f38d0430b65d4096.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true",
+        "https://cdn2.cycletrader.com/v1/media/5ffaa769f38d0430b65d4097.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true",
+        "https://cdn2.cycletrader.com/v1/media/5ffaa76af38d0430b65d4098.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true",
+        "https://cdn1.cycletrader.com/v1/media/600a5d639fae190ffc7dcfe5.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true",
+        "https://cdn1.cycletrader.com/v1/media/600a5d639fae190ffc7dcfe5.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true", 
+        "https://cdn1.cycletrader.com/v1/media/600a5d639fae190ffc7dcfe6.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true",
+        "https://cdn1.cycletrader.com/v1/media/600a5d639fae190ffc7dcfe5.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true",
+        "https://cdn2.cycletrader.com/v1/media/60090bf404376a462478165c.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true"
+
+    ]
+
+      
 })

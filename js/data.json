@@ -9,7 +9,8 @@
     "model" : "Rocket 3 R Korosi Red",
     "price" : 21900,
     "year" : 2020,
-    "featured" : true
+    "featured" : true,
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
   }, {
     "category" : "Touring",
     "color" : "Silver",
@@ -20,7 +21,8 @@
     "model" : "GL1800 Goldwing",
     "price" : 5999,
     "year" : 2002,
-    "featured" : false
+    "featured" : false,
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
   }, {
     "category" : "Sportbike",
     "color" : "Black",
@@ -31,6 +33,7 @@
     "model" : "YZF-R1",
     "price" : 17399,
     "year" : 2020,
-    "featured" : true
+    "featured" : true,
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
   } 
 ]   
