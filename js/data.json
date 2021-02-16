@@ -3,19 +3,29 @@
     "category" : "Sport Touring",
     "color" : "Red",
     "condition" : "New",
-    "imgs" : [ "https://cdn2.cycletrader.com/v1/media/60090bf404376a462478165c.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true", "https://cdn2.cycletrader.com/v1/media/600124c9d7671a35cc33d70e.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true", "https://cdn2.cycletrader.com/v1/media/600124c9d7671a35cc33d711.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true", "https://cdn1.cycletrader.com/v1/media/600124c9d7671a35cc33d712.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true" ],
+    "imgs" : [ 
+      "https://cdn2.cycletrader.com/v1/media/60090bf404376a462478165c.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true",
+      "https://cdn2.cycletrader.com/v1/media/600124c9d7671a35cc33d70e.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true", 
+      "https://cdn2.cycletrader.com/v1/media/600124c9d7671a35cc33d711.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true", 
+      "https://cdn1.cycletrader.com/v1/media/600124c9d7671a35cc33d712.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true" 
+    ],
     "make" : "Triumph",
     "mileage" : 7,
     "model" : "Rocket 3 R Korosi Red",
     "price" : 21900,
     "year" : 2020,
-    "featured" : true,
+    "featured" : false,
     "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-  }, {
+  }, 
+  {
     "category" : "Touring",
     "color" : "Silver",
     "condition" : "Used",
-    "imgs" : [ "https://cdn1.cycletrader.com/v1/media/5ffaa769f38d0430b65d4096.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true", "https://cdn2.cycletrader.com/v1/media/5ffaa769f38d0430b65d4097.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true", "https://cdn2.cycletrader.com/v1/media/5ffaa76af38d0430b65d4098.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true" ],
+    "imgs" : [ 
+      "https://cdn1.cycletrader.com/v1/media/5ffaa769f38d0430b65d4096.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true", 
+      "https://cdn2.cycletrader.com/v1/media/5ffaa769f38d0430b65d4097.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true", 
+      "https://cdn2.cycletrader.com/v1/media/5ffaa76af38d0430b65d4098.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true" 
+    ],
     "make" : "Honda",
     "mileage" : 79652,
     "model" : "GL1800 Goldwing",
@@ -23,16 +33,104 @@
     "year" : 2002,
     "featured" : false,
     "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-  }, {
+  }, 
+  {
     "category" : "Sportbike",
     "color" : "Black",
     "condition" : "New",
-    "imgs" : [ "https://cdn1.cycletrader.com/v1/media/600a5d639fae190ffc7dcfe5.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true", "https://cdn1.cycletrader.com/v1/media/600a5d639fae190ffc7dcfe5.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true", "https://cdn1.cycletrader.com/v1/media/600a5d639fae190ffc7dcfe6.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true" ],
+    "imgs" : [ 
+      "https://cdn1.cycletrader.com/v1/media/600a5d639fae190ffc7dcfe5.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true", 
+      "https://cdn1.cycletrader.com/v1/media/600a5d639fae190ffc7dcfe5.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true", 
+      "https://cdn1.cycletrader.com/v1/media/600a5d639fae190ffc7dcfe6.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true" 
+    ],
     "make" : "Yamaha",
     "mileage" : 1,
     "model" : "YZF-R1",
     "price" : 17399,
     "year" : 2020,
+    "featured" : true,
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  }, 
+  {
+    "category" : "Sportbike",
+    "color" : "Gray",
+    "condition" : "New",
+    "imgs" : [ "https://cdn2.cycletrader.com/v1/media/6013a19b1b84601ce23fdbc1.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true" ],
+    "make" : "Zero",
+    "mileage" : 1,
+    "model" : "SR/S Premium",
+    "price" : 21995,
+    "year" : 2021,
+    "featured" : true,
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  }, 
+  {
+    "category" : "Sport Touring",
+    "color" : "Blue",
+    "condition" : "Used",
+    "imgs" : [ 
+      "https://cdn1.cycletrader.com/v1/media/5fe7d4257eecae32a1622e23.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true",
+      "https://cdn1.cycletrader.com/v1/media/5fe7d4261bf61377373688e7.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true",
+      "https://cdn1.cycletrader.com/v1/media/5fe7d427fad40c47c53ac034.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true",
+      "https://cdn1.cycletrader.com/v1/media/5fe7d42989a13a3737656f33.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true" 
+    ],
+    "make" : "Suzuki",
+    "mileage" : 9564,
+    "model" : "GSX-S 1000F ABS",
+    "price" : 6000,
+    "year" : 2016,
+    "featured" : true,
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  }, 
+  {
+    "category" : "Cruiser",
+    "color" : "Black",
+    "condition" : "Used",
+    "imgs" : [ 
+      "https://cdn2.cycletrader.com/v1/media/60182e54298d256bfa053283.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true",
+      "https://cdn1.cycletrader.com/v1/media/60182e6977ee8e7b8a365816.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true",
+      "https://cdn2.cycletrader.com/v1/media/60182e583711382a445c8a95.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true",
+      "https://cdn1.cycletrader.com/v1/media/60182e5e62c9c10023056d2f.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true",
+      "https://cdn1.cycletrader.com/v1/media/60182e64024b1e3b9a57b93b.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true" 
+    ],
+    "make" : "Harley-Davidson",
+    "mileage" : 2500,
+    "model" : "STREET GLIDE SPECIAL",
+    "price" : 6000,
+    "year" : 2015,
+    "featured" : true,
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  }, 
+  {
+    "category" : "Cruiser",
+    "color" : "Black",
+    "condition" : "Used",
+    "imgs" : [ 
+      "https://cdn2.cycletrader.com/v1/media/60234b718beb8366d0142beb.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true",
+      "https://cdn2.cycletrader.com/v1/media/60234b68b59fa4032d295285.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true"
+    ],
+    "make" : "Suzuki",
+    "mileage" : 2417,
+    "model" : "BOULEVARD M109R",
+    "price" : 12000,
+    "year" : 2013,
+    "featured" : true,
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  }, 
+  {
+    "category" : "Sportbike",
+    "color" : "Red",
+    "condition" : "Used",
+    "imgs" : [ 
+      "https://cdn2.cycletrader.com/v1/media/5feb6be4abd5187f442d3dbf.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true",
+      "https://cdn2.cycletrader.com/v1/media/5feb6bedcb1c9060c664a26e.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true",
+      "https://cdn2.cycletrader.com/v1/media/5f970a9b6e5bc50fa41dcc01.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true"
+    ],
+    "make" : "Suzuki",
+    "mileage" : 1700,
+    "model" : "Cbr1000",
+    "price" : 13500,
+    "year" : 2018,
     "featured" : true,
     "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
   } 
