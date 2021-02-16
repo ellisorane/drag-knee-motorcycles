@@ -23,12 +23,12 @@ const navSlide = () => {
 }
 navSlide()
 
-$(document).ready(function () {
+//ADDS COMMAS TO NUMBERS >= 1000
+const formatNumber = (num) => {
+    return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')
+}
 
-    //ADDS COMMAS TO NUMBERS >= 1000
-    function formatNumber(num) {
-        return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')
-    }
+$(document).ready(function () {
 
     // GET JSON DATA TO POPULATE THE WEBPAGE WITH ITEMS 
     $.ajax({
@@ -36,9 +36,11 @@ $(document).ready(function () {
         dataType: 'json',
         url: "./js/data.json",
         success: function (result) {
-            console.log(result)
+            //CATEGORIES ARE FOR THE RESULT FILTER BUTTONS
+            let categories = []
             result.forEach(data => {
-                $('.catsDiv').append(`<button class="catsBtn" id="catsMake">${data.make} +</button>`)
+                categories.push(data.make)
+                categories.push(data.condition)
                 $('.inventory').append(`
                     <div class="item">
                         <a href="#">
@@ -65,6 +67,16 @@ $(document).ready(function () {
                     </div>
                 `)
             })
+
+            categories = new Set(categories)
+            console.log(categories)
+            categories.forEach((cat) => {
+                $('.catsBtnContainer').append(`<button class="catsBtn" id="catsMake">${cat} +</button>`)
+            })
+            $('#filter').on('click', function () {
+                $('.catsDiv').slideToggle()
+            })
+
         }
     })
     

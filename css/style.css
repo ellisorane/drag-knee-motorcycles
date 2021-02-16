@@ -46,10 +46,12 @@ body {
     margin: 20px auto;
     background-color: #22273A;
     border-radius: 15px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: space-evenly;
-    align-items: center;
+    display: none;
+}
+
+.catsBtnContainer {
+    width: fit-content;
+    margin: auto;
 }
 
 .catsBtn {
@@ -60,6 +62,7 @@ body {
     color: #D1D5E5;
     transition: all 0.3s;
     outline: none;
+    margin: 5px;
 }
 
 .catsBtn:hover {
@@ -82,7 +85,8 @@ body {
     width: 90%;
     overflow-x: hidden;
     margin: auto;
-    background-color: #D1D5E5;
+    background-color: #ececec;
+    border-radius: 3px;
 }
 
 .scroller-btn, .more-featured {
@@ -120,7 +124,6 @@ body {
 .featured-scroller {
     min-height: 300px;
     display: flex;
-    /* position: absolute; */
 }
 
 .featured-item {
