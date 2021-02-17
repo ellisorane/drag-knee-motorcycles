@@ -41,6 +41,7 @@ $(document).ready(function () {
             result.forEach(data => {
                 categories.push(data.make)
                 categories.push(data.condition)
+
                 $('.inventory').append(`
                     <div class="item">
                         <a href="#">
@@ -69,13 +70,13 @@ $(document).ready(function () {
             })
 
             categories = new Set(categories)
-            console.log(categories)
             categories.forEach((cat) => {
-                $('.catsBtnContainer').append(`<button class="catsBtn" id="catsMake">${cat} +</button>`)
+                $('.catsBtnContainer').append(`<button class="catsBtn">${cat} +</button>`)
             })
             $('#filter').on('click', function () {
                 $('.catsDiv').slideToggle()
             })
+            
 
         }
     })
